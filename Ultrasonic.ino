@@ -1,9 +1,13 @@
-\int trigPin = 2;
+int trigPin = 2;
 int echoPin = 4;
+
+
 
 long cm;
 long duration;
 long distance;
+
+
 
 void setup()
 {
@@ -21,6 +25,10 @@ void loop()
   Serial.println(cm);
     
 }
+
+
+
+
 
 long getDistance()
 {
