@@ -1,7 +1,8 @@
+
+//TrigPin to Pin 2
+//EchoPin to Pin 4
 int trigPin = 2;
 int echoPin = 4;
-
-
 
 long cm;
 long duration;
@@ -20,10 +21,8 @@ void setup()
 
 void loop()
 {
- 
   cm = getDistance(); 
   Serial.println(cm);
-    
 }
 
 
